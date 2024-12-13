@@ -39,4 +39,14 @@
     <servlet-name>Logout</servlet-name>
     <url-pattern>/Logout</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ConuterServlet</display-name>
+    <servlet-name>ConuterServlet</servlet-name>
+    <servlet-class>servlet.ConuterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConuterServlet</servlet-name>
+    <url-pattern>/ConuterServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
